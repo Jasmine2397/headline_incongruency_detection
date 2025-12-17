@@ -83,3 +83,6 @@ def load_dataset(test_size=0.2, random_state=42):
     print("Test shape:", X_test.shape)
 
     return X_train, X_test, y_train, y_test
+    import joblib
+    joblib.dump(tfidf, "../web/model/tfidf.joblib")
+
