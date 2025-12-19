@@ -1,11 +1,5 @@
-torch
-transformers
-datasets
+flask
 scikit-learn
-pandas
 numpy
-nltk
-tqdm
-matplotlib
-seaborn
-streamlit
+scipy
+joblib
